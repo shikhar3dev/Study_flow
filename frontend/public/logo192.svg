@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="96" fill="#1976d2"/>
+  
+  <!-- Book shape -->
+  <path d="M60 40 L 132 40 L 132 152 L 60 152 Z" fill="white"/>
+  <path d="M60 40 L 132 40 L 132 152 L 60 152 Z" fill="none" stroke="#1976d2" stroke-width="4"/>
+  
+  <!-- Book pages -->
+  <line x1="96" y1="40" x2="96" y2="152" stroke="#1976d2" stroke-width="2"/>
+  <line x1="60" y1="80" x2="132" y2="80" stroke="#1976d2" stroke-width="2"/>
+  <line x1="60" y1="120" x2="132" y2="120" stroke="#1976d2" stroke-width="2"/>
+  
+  <!-- Brain icon -->
+  <circle cx="96" cy="96" r="24" fill="#1976d2"/>
+  <path d="M96 72 Q 120 96 96 120 Q 72 96 96 72" fill="white"/>
+  <circle cx="96" cy="96" r="8" fill="white"/>
+</svg> 

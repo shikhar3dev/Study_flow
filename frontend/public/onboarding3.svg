@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5" rx="20"/>
+  
+  <!-- Progress chart -->
+  <polyline points="50,250 100,200 150,220 200,180 250,190 300,150 350,170" 
+    fill="none" stroke="#42a5f5" stroke-width="4"/>
+  
+  <!-- Streak calendar -->
+  <rect x="100" y="100" width="200" height="40" rx="5" fill="#e3f2fd"/>
+  <circle cx="120" cy="120" r="10" fill="#90caf9"/>
+  <circle cx="150" cy="120" r="10" fill="#90caf9"/>
+  <circle cx="180" cy="120" r="10" fill="#90caf9"/>
+  <circle cx="210" cy="120" r="10" fill="#90caf9"/>
+  <circle cx="240" cy="120" r="10" fill="#90caf9"/>
+  <circle cx="270" cy="120" r="10" fill="#90caf9"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="250" r="5" fill="#1976d2"/>
+  <circle cx="350" cy="170" r="5" fill="#1976d2"/>
+</svg> 
