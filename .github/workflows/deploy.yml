@@ -35,9 +35,14 @@ jobs:
           CI: false
           REACT_APP_API_URL: https://studyflow-backend.herokuapp.com
 
+      - name: Copy build to root
+        run: |
+          cp -r frontend/build/* .
+          cp frontend/build/.nojekyll .
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: frontend/build
+          folder: .
           branch: gh-pages
           clean: true 
